@@ -1,0 +1,141 @@
+
+ body{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://thumbs.dreamstime.com/z/health-care-icon-rectangle-pattern-abstract-design-background-eps-vector-54120614.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+ }
+ header{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ .round3 {
+  border-radius: 50px;
+  background:#AAD8F5;
+  padding: 20px; 
+  width: 200px;
+  height: 400px;  
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #17608D;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 5px whitesmoke;
+}
+.button:hover {background-color: #13526C}
+
+.button:active {
+  background-color: #17608D;
+  box-shadow: 0 4px whitesmoke;
+  transform: translateY(4px);
+}
+
+.left-m {
+    width: 20%;
+    padding-left: 9px;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: auto;
+}
+
+.dropbtn1 {
+    background-color: #08699b;
+    color: white;
+    padding: 2px;
+    width: 100%;
+    font-size: 14px;
+    border: 4px;
+    text-align: left;
+    
+}
+.dropbtn1:hover {
+    background-color: #54C7FE;
+    color: white;
+    padding: 7px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width:100%;
+    font-size: 14px;
+    border: 4px;
+    
+}
+p
+{
+    color: whitesmoke;
+    margin: 0 0 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+.footer-section {
+  background: #166a84;
+  padding-bottom: 80px;
+}
+
+.footer-section-row {
+  background: #1d7590;
+  padding: 18px;
+  margin-bottom: 50px;
+}
+
+.address {
+  padding: 10px;
+  display: flex;
+}
+
+.right-text {
+  padding-left: 28px;
+}
+
+.right-text h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.right-text p {
+  margin: 0px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.footer {background:#2b2c34;padding:0 0 100px;}
+#anglesvg {display: block;}
+svg:not(:root) {overflow: hidden;}
+.footer .footer-contents {padding-top: 80px;}
+.container.grid-xl {max-width: 1096px;}
+.container {margin-left: auto;margin-right: auto;padding-left: .4rem;padding-right: .4rem;width: 100%;}
+.mb-0 {margin-bottom: 0 !important;}
+.my-4 {margin-bottom: .8rem !important;margin-top: .8rem !important;}
+.footer .footer-contents .footer-social a {display: inline-block;font-size: 1.5em;}
+.footer a {color:#fffffe;display:block;}
+.footer a:hover{color:#3498db;cursor:pointer;}
+.footer .fab:before,.footer .far:before{font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;}
+.footer p {color: #d7d8e1;font-size: 0.8em;margin: 15px 0;}
+.text-small {font-size: 0.8em;font-weight:800;}
+.text-small:hover{text-decoration:none;}
